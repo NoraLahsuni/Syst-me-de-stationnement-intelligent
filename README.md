@@ -1,19 +1,19 @@
-# 🚗 Système de Gestion Intelligente de Stationnement
+#  Système de Gestion Intelligente de Stationnement
 
-### 🏫 Université : Ibn Zohr  
-### 📅 Année : 2025 / 2026 
-### ✅ Statut : Développement en cours  
+###  Université : Ibn Zohr  
+###  Année : 2025 / 2026 
+###  Statut : Développement en cours  
 
 ---
 
-## 🧠 Description du Projet
+##  Description du Projet
 
 Ce projet vise à développer un **système intelligent de gestion de stationnement** basé sur l’IoT et le cloud.  
 L’objectif est d’optimiser l’utilisation des places de parking en temps réel grâce à la détection automatique des véhicules et à la synchronisation avec une base de données distante.
 
 ---
 
-## 🏗️ Architecture du Système
+##  Architecture du Système
 
 - **Capteurs (IoT / ESP32)** : détectent la présence des véhicules.  
 - **Firebase Realtime Database** : envoie et reçoit les données des capteurs.  
@@ -27,18 +27,18 @@ L’objectif est d’optimiser l’utilisation des places de parking en temps r�
 
 | Composant | Technologie |
 |------------|--------------|
-| 💡 Microcontrôleur | ESP32 / Arduino |
-| ☁️ Cloud | Firebase Realtime Database |
-| 🖥️ Backend | Node.js + Express |
-| 🗄️ Base de Données | PostgreSQL (Neon) |
-| 🔐 Sécurité | Variables d'environnement (.env) |
-| 🧰 Outils | VS Code, Git, Render (déploiement futur) |
+|  Microcontrôleur | ESP32 / Arduino |
+|  Cloud | Firebase Realtime Database |
+|  Backend | Node.js + Express |
+|  Base de Données | PostgreSQL (Neon) |
+|  Sécurité | Variables d'environnement (.env) |
+|  Outils | VS Code, Git, Render (déploiement futur) |
 
 ---
 
 ---
 
-## 🧩 Tests & Validation
+##  Tests & Validation
 
 - ✅ Test de synchronisation Firebase → Neon.  
 - ✅ Vérification de l’insertion en base PostgreSQL.  
@@ -46,7 +46,7 @@ L’objectif est d’optimiser l’utilisation des places de parking en temps r�
 
 ---
 
-## 🚀 Perspectives d’Amélioration
+## Perspectives d’Amélioration
 
 - Déploiement sur **Render** ou **Vercel**.  
 - Ajout d’une **interface web interactive**.  
