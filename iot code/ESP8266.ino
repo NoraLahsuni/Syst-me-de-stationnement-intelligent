@@ -7,7 +7,7 @@
 #define WIFI_SSID "La_Fibre_dOrange_DD0B"
 #define WIFI_PASSWORD "G454NRA32A3K9EHQTE"
 
-// --- Broche du capteur IR ---
+// --- Broche du capteur IR -----
 #define IR1 D5   // exemple D5 sur ESP8266
 
 // --- Objets Firebase ---
