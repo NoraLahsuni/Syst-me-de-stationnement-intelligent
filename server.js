@@ -4,6 +4,8 @@ import admin from "firebase-admin";
 import fs from "fs";
 import dotenv from "dotenv";
 dotenv.config();
+
+
 // ===== READ FIREBASE KEY =====
 const serviceAccount = JSON.parse(process.env.FIREBASE_KEY);
 
