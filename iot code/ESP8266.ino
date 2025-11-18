@@ -81,5 +81,5 @@ void loop() {
   fbClient.RTDB.setString(&fbdo, "/ParkingLot/Place4", state4);
   fbClient.RTDB.setString(&fbdo, "/ParkingLot/Place5", state5);
 
-  delay(2000); // Attendre 2 secondes avant la prochaine mise à jour
+  delay(2000); // Attendre 2 secondes avant la prochaine mise à jourrr
 }
