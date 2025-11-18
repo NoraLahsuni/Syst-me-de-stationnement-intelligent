@@ -2,9 +2,11 @@ import express from "express";
 import cors from "cors";
 import admin from "firebase-admin";
 import fs from "fs";
-
+import dotenv from "dotenv";
+dotenv.config();
 // ===== READ FIREBASE KEY =====
-const serviceAccount = JSON.parse(fs.readFileSync("./firebase-key.json", "utf8"));
+const serviceAccount = JSON.parse(process.env.FIREBASE_KEY);
+
 
 // ===== INIT FIREBASE =====
 admin.initializeApp({
