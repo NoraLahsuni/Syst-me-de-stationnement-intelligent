@@ -105,19 +105,19 @@ Parallèlement :
 ---
 
 ## 👥 Équipe du projet
-Filière IISE: 
+Filière IISE:   
 Khaoula EL HARRAZ  
 Maryem EL-BOUCHTI  
 Nora LAHSUNI  
 Oussama GOUSSA  
 
 
-Filière ADIA: 
+Filière ADIA:   
 Imane BARAKAT  
 Naoual ELHILLALI   
 
 
-Encadré par : 
+Encadré par :   
 Pr. Amine RGHIOUI   
 Pr. Monsef BOUGHROUS   
 
