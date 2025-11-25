@@ -1,25 +1,43 @@
-#  Système de Gestion Intelligente de Stationnement
+# Système de Gestion Intelligente de Stationnement
 
-###  Université : Ibn Zohr  
-###  Année : 2025 / 2026 
-###  Statut : Développement en cours  
+## Université : Ibn Zohr  
+## Année : 2025 / 2026  
+## Statut : Développement en cours  
 
 ---
 
-##  Description du Projet
+### 👥 Membres du Projet
 
-Ce projet vise à développer un **système intelligent de gestion de stationnement** basé sur l’IoT et le cloud.  
+#### Filière IISE :
+- Khaoula EL HARRAZ
+- Maryem EL-BOUCHTI
+- Nora LAHSUNI
+- Oussama GOUSSA
+
+#### Filière ADIA :
+- Imane BARAKAT
+- Naoual ELHILLALI
+
+#### Encadré par :
+- Pr. Amine RGHIOUI
+- Pr. Monsef BOUGHROUS
+
+---
+
+## 🧠 Description du Projet
+
+Ce projet vise à développer un système intelligent de gestion de stationnement basé sur l’IoT et le cloud.  
 L’objectif est d’optimiser l’utilisation des places de parking en temps réel grâce à la détection automatique des véhicules et à la synchronisation avec une base de données distante.
 
 ---
 
-##  Architecture du Système
+## 🧩 Architecture du Système
 
-- **Capteurs (IoT / ESP32)** : détectent la présence des véhicules.  
-- **Firebase Realtime Database** : envoie et reçoit les données des capteurs.  
-- **Serveur Node.js (Express)** : synchronise Firebase ↔ PostgreSQL (Neon).  
-- **Base de Données (Neon PostgreSQL)** : stocke les états des places.  
-- **Interface Web (prochaine étape)** : affichage en temps réel des places libres/occupées.
+- Capteurs (IoT / ESP32) pour détecter la présence de véhicules  
+- Firebase Realtime Database pour la mise à jour instantanée des données  
+- Backend Node.js + Express pour la logique applicative  
+- Base de données Neon PostgreSQL pour le stockage  
+- Interface Web (future) pour l’affichage visuel  
 
 ---
 
@@ -27,35 +45,33 @@ L’objectif est d’optimiser l’utilisation des places de parking en temps r�
 
 | Composant | Technologie |
 |------------|--------------|
-|  Microcontrôleur | ESP32 / Arduino |
-|  Cloud | Firebase Realtime Database |
-|  Backend | Node.js + Express |
-|  Base de Données | PostgreSQL (Neon) |
-|  Sécurité | Variables d'environnement (.env) |
-|  Outils | VS Code, Git, Render (déploiement futur) |
+| Microcontrôleur | ESP32 / Arduino |
+| Cloud | Firebase Realtime Database |
+| Backend | Node.js + Express |
+| Base de Données | PostgreSQL (Neon) |
+| Sécurité | Variables d'environnement (.env) |
+| Outils | VS Code, Git, Render |
 
 ---
 
----
+## 🧪 Tests & Validation
 
-##  Tests & Validation
-
-- ✅ Test de synchronisation Firebase → Neon.  
-- ✅ Vérification de l’insertion en base PostgreSQL.  
-- 🔄 Simulation de changement d’état (place occupée / libre).
+- Test de synchronisation Firebase → Neon  
+- Vérification insertion SQL  
+- Simulation place occupée / libre  
 
 ---
 
-## Perspectives d’Amélioration
+## 🚀 Perspectives
 
-- Déploiement sur **Render** ou **Vercel**.  
-- Ajout d’une **interface web interactive**.  
-- Notifications (SMS / Email) en cas d’occupation complète.  
-- Sécurisation HTTPS + authentification.
+- Déploiement sur Render / Vercel  
+- Interface web interactive  
+- Notifications (Email / SMS)  
+- Sécurisation HTTPS + Auth  
 
 ---
 
 ## 🏁 Conclusion
 
-Ce projet démontre une application pratique des systèmes connectés (IoT) pour la **gestion intelligente des ressources** en milieu urbain.  
-Il constitue une base solide pour le développement d’un système de stationnement en temps réel fiable et extensible.
+Ce projet illustre l'utilisation de l’IoT et du cloud computing dans un contexte réel de gestion intelligente des ressources urbaines.
+
