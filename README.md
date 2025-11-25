@@ -2,7 +2,6 @@
 
 ## Université : Ibn Zohr  
 ## Année : 2025 / 2026  
-
 ---
 
 ### 👥 Membres du Projet
